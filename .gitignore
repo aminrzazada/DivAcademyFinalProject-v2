@@ -12,3 +12,7 @@ data/*.csv
 catboost_info/
 __pycache__/
 .pytest_cache/
+# ingest.py çıxışı (böyük Parquet) və alternativ təlim qovluğu repoya qoyulmur
+data/processed/
+data/*.parquet
+models_sep/

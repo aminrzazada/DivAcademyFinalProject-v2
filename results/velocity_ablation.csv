@@ -1,0 +1,3 @@
+model,n_features,valid_pr_auc,valid_roc_auc,valid_tpr_at_5pct_fpr,test_pr_auc,test_roc_auc,test_tpr_at_5pct_fpr,test_pr_auc_delta_vs_full,delta_ci_low,delta_ci_high,removed_features
+full,72,0.19127,0.89718,0.54004,0.19377,0.89423,0.54274,0.0,,,
+no_velocity,66,0.18666,0.89547,0.54146,0.1954,0.89411,0.54795,0.00168,-0.00047,0.00423,"velocity_6h, velocity_24h, velocity_4w, velocity_ratio_6h_24h, velocity_ratio_24h_4w, velocity_accel"

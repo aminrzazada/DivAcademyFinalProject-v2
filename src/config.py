@@ -24,6 +24,11 @@ TRAIN_MONTHS = [0, 1, 2, 3, 4]
 VALID_MONTHS = [5]
 TEST_MONTHS = [6, 7]
 
+# Alternativ split (python -m src.train --separate-valid): calibration və threshold FƏRQLİ aylarda seçilir
+TRAIN_MONTHS_SEP = [0, 1, 2, 3]
+VALID_CAL_MONTHS = [4]   # calibration yalnız bu ayda
+VALID_THR_MONTHS = [5]   # threshold yalnız bu ayda (calibrated ehtimallar üzərində)
+
 # Biznes xərci fərziyyələri (şərti vahid). Həssaslıq analizi notebook-dadır.
 COST_FN = 500.0  # buraxılmış fraud: təxmini itki
 COST_FP = 10.0   # yanlış alarm: manual yoxlama + müştəri sürtünməsi

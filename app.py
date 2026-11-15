@@ -53,7 +53,6 @@ st.title("🛡️ Bank Account Fraud: Risk Paneli")
 st.caption(f"Model: {meta['model']} + {meta['calibration']} calibration | Aktiv threshold: {dynamic_thr:.4f}")
 
 # Biznes terminləri lüğəti
-# Biznes terminləri lüğəti
 FEATURE_LABELS = {
     "income": {
         "label": "Müştərinin Aylıq Gəliri (Skalalanmış)",

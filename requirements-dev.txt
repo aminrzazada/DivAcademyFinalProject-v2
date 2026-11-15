@@ -5,3 +5,4 @@ seaborn>=0.13
 scipy>=1.11
 jupyter>=1.0
 pytest>=8.0
+pyarrow>=14

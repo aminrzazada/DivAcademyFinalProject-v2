@@ -1,0 +1,53 @@
+{
+  "rows": 1000000,
+  "columns": 32,
+  "duplicate_rows": 0,
+  "null_counts": {},
+  "hidden_missing": {
+    "prev_address_months_count": {
+      "count": 712920,
+      "share": 0.71292
+    },
+    "current_address_months_count": {
+      "count": 4254,
+      "share": 0.004254
+    },
+    "bank_months_count": {
+      "count": 253635,
+      "share": 0.253635
+    },
+    "session_length_in_minutes": {
+      "count": 2015,
+      "share": 0.002015
+    },
+    "device_distinct_emails_8w": {
+      "count": 359,
+      "share": 0.000359
+    },
+    "intended_balcon_amount": {
+      "count": 742523,
+      "share": 0.742523
+    }
+  },
+  "fraud_rate": 0.011029,
+  "rows_by_month": {
+    "0": 132440,
+    "1": 127620,
+    "2": 136979,
+    "3": 150936,
+    "4": 127691,
+    "5": 119323,
+    "6": 108168,
+    "7": 96843
+  },
+  "fraud_rate_by_month": {
+    "0": 0.011325883418906675,
+    "1": 0.009387243378780755,
+    "2": 0.008745866154666044,
+    "3": 0.009222451900143107,
+    "4": 0.011371200789405674,
+    "5": 0.01182504630289215,
+    "6": 0.013405073589231566,
+    "7": 0.014745515938167962
+  }
+}
