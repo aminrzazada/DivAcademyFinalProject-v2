@@ -127,7 +127,4 @@ streamlit run app.py
 3. **Vacib:** `requirements.txt`-də `scikit-learn==1.9.1` pinlənib, çünki `model.joblib` bu versiya ilə hazırlanıb. Deploy-da model yüklənməsə (pandas/numpy versiya fərqi mümkündür), `02_modeling.ipynb`-ni öz mühitinizdə işlədib yeni `models/model.joblib` commit edin.
 4. `models/model.joblib` GitHub-un 100 MB limitindən kiçik olmalıdır (notebook ölçünü çap edir).
 
-## Məhdudiyyətlər
-- Xərc fərziyyələri (`COST_FN`, `COST_FP`) illüstrativdir; real tətbiqdə bankın rəqəmləri ilə əvəz olunmalıdır.
-- Dataset sintetik/anonimləşdirilmişdir; real production performansı fərqli ola bilər.
-- Fraud davranışı zamanla dəyişir: production-da drift monitorinqi və dövri retraining lazımdır.
+
