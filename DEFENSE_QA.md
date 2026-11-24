@@ -1,6 +1,6 @@
 # Müdafiə sual-cavab (real nəticələrlə)
 
-Bütün rəqəmlər `02_modeling.ipynb` çıxışlarındandır (test = ay 6-7, əgər başqa qeyd olunmayıbsa).
+Bütün rəqəmlər `02_modeling.ipynb` çıxışlarındandır 
 
 ## 1. Dataset və məsələ
 **Niyə bu dataset?** BAF (NeurIPS 2022, Feedzai): real bank hesabı açılışı datası əsasında generasiya olunmuş, 1,000,000 sətir, fraud nisbəti 1.10%, 8 aylıq zaman ölçüsü var. Güclü imbalance, zaman driftı və həssaslıq atributu (yaş) ona real iş problemi xarakteri verir. Titanic/Telco kimi klassik datasetlərdə bu ölçülər yoxdur.
