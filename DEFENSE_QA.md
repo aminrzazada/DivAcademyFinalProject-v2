@@ -115,5 +115,4 @@ Bütün rəqəmlər `02_modeling.ipynb` çıxışlarındandır (test = ay 6-7, �
 
 **Zamana görə cross-validation nə göstərdi?** Genişlənən pəncərə ilə 5 fold (ay 3-7): ROC-AUC 0.902 ± 0.009 (0.913, 0.910, 0.897, 0.893, 0.897), PR-AUC 0.186 ± 0.019, TPR@5%FPR 0.553 ± 0.025. Tək split nəticəsi təsadüf deyil. ROC-AUC son aylarda bir qədər aşağıdır və yeni aylar əlavə olunsa da artmayıb, bu driftlə uyğundur (fold-lar fərqli aylar üzərində ölçüldüyü üçün bu müşahidəyə ehtiyatla yanaşmaq lazımdır).
 
-## 12. Ən böyük məhdudiyyətlər
-Xərc fərziyyələri illüstrativdir; tuning axtarışı məhduddur (genişləndirilmiş 10 sınaq yaxşılaşma göstərmədi, amma azdır); feature engineering ölçülə bilən qazanc vermədi; fairness fərqi aşkardır və tam həll olunmayıb; dataset sintetik/anonimləşdirilmişdir; bir train/valid/test bölgüsü var (təkrar split və ya rolling-window yoxlaması aparılmayıb).
+
